@@ -1,0 +1,24 @@
+{
+    "files.watcherExclude": {
+      "**/.nuxt/**": true,
+      "**/node_modules/**": true,
+      "**/dist/**": true,
+      "**/.output/**": true
+    },
+    "search.exclude": {
+      "**/.nuxt": true,
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/.output": true
+    },
+    "typescript.tsserver.exclude": [
+      "**/.nuxt",
+      "**/node_modules",
+      "**/dist",
+      "**/.output"
+    ],
+    "javascript.suggest.enabled": true,
+    "typescript.suggest.enabled": true,
+    "vue.autoComplete": true
+  }
+  
