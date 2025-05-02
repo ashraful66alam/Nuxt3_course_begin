@@ -26,5 +26,4 @@ onMounted(() => {
     <div>My Profile</div>
     <p>{{ name }}</p>
     <p>{{ sayhello(name) }}</p>
-    <p>noooo</p>
 </template>

@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  modules: ['@nuxt/content'],
+  modules: ['@nuxt/content','@pinia/nuxt'],
   alias:{
     // "@":resolve(__dirname,"/"),
     assets:"/<rootDir>/assets"
